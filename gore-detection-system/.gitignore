@@ -1,0 +1,17 @@
+# Python virtual environment
+.venv/
+_py310_bootstrap/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook and test cache
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editor files
+.idea/
+.vscode/

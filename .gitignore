@@ -1,0 +1,115 @@
+# Monorepo local state
+.cache/
+.tmp/
+tmp/
+temp/
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Secrets and machine-local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+local.properties
+safeai_jks
+
+# Android / Gradle
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+android/**/build/
+android/**/.gradle/
+android/**/.kotlin/
+android/local.properties
+android/app/release/
+android/app/debug/
+*.apk
+*.aab
+*.ap_
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+.ipynb_checkpoints/
+
+# Bundled runtimes and generated local environments
+gore-detection-system/_py310_bootstrap/
+gore-detection-system/.venv/
+
+# ML data, checkpoints, and generated artifacts
+gore-detection-system/dataset/raw/
+gore-detection-system/dataset/processed/
+gore-detection-system/dataset/cache/
+gore-detection-system/runs/
+gore-detection-system/checkpoints/
+gore-detection-system/outputs/
+gore-detection-system/artifacts/
+gore-detection-system/models/
+gore-detection-system/model_training/saved_models/
+*.keras
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+
+# Node / web tooling, for future packages in the monorepo
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+coverage/
+.next/
+.nuxt/
+.svelte-kit/
+out/
+
+# Archives and large generated packages
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFB7C7FF</color>
+    <color name="purple_500">#FF1458D6</color>
+    <color name="purple_700">#FF00419A</color>
+    <color name="teal_200">#FFA4F0EA</color>
+    <color name="teal_700">#FF006A68</color>
+
+    <color name="safeai_primary">#FF1458D6</color>
+    <color name="safeai_on_primary">#FFFFFFFF</color>
+    <color name="safeai_secondary">#FF006A68</color>
+    <color name="safeai_tertiary">#FF8A5300</color>
+    <color name="safeai_surface_light">#FFF4F8FF</color>
+    <color name="safeai_surface_dark">#FF0C1526</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

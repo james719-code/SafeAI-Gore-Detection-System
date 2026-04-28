@@ -1,0 +1,8 @@
+scope,category,label,count,notes
+processed,train,gore,1502,copied from dataset/raw
+processed,train,non_gore,11753,copied from dataset/raw
+processed,val,gore,322,copied from dataset/raw
+processed,val,non_gore,2518,copied from dataset/raw
+processed,test,gore,322,copied from dataset/raw
+processed,test,non_gore,2519,copied from dataset/raw
+processed,overall,all,18936,all copied images
